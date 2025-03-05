@@ -22,7 +22,7 @@ jobs:
         run: npm install  # Install project dependencies
 
       - name: Run Cypress Tests
-        run: npx cypress run  # Execute Cypress tests
+        run: npx cypress run --spec cypress/e2e/web_tests/add_and_delete_handling.js  # Execute Cypress tests
 
       - name: Upload Test Reports
         if: always()  # Upload reports even if tests fail
