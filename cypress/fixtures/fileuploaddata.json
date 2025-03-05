@@ -1,0 +1,7 @@
+{
+    "imagepath": "cypress/fixtures/uploaddata/boat.jpg",
+    "textfilepath": "cypress/fixtures/uploaddata/demo.txt",
+    "imagename": "boat.jpg",
+    "textfilename": "demo.txt",
+    "successmessage": "File Uploaded!"
+}

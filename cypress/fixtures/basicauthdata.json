@@ -1,0 +1,6 @@
+{
+    "authurl": "https://the-internet.herokuapp.com/basic_auth",
+    "username": "admin",
+    "password": "admin",
+    "successmessage": "Congratulations! You must have the proper credentials."
+}

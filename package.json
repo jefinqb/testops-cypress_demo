@@ -1,0 +1,37 @@
+{
+  "name": "cypressinternal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:email": "npx cypress run --config-file ./cypress.email.config.js",
+    "cypress:staging:open": "npx cypress open --config-file ./cypres.staging.config.js",
+    "cypress:staging:run": "npx cypress open --config-file ./cypres.staging.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.qburst.com/jyothi/cypressinternal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^4.0.1",
+    "axe-core": "^4.8.3",
+    "cypress": "^13.17.0",
+    "cypress-axe": "^1.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-email-results": "^1.8.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-on-fix": "^1.0.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.7",
+    "xlsx": "^0.18.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/cucumber_tests/steps"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}

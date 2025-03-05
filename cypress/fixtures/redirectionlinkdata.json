@@ -1,0 +1,8 @@
+{
+  "link1": "here",
+  "link2": "200",
+  "link3": "404",
+  "url1": "https://the-internet.herokuapp.com/status_codes",
+  "url2": "https://the-internet.herokuapp.com/status_codes/200",
+  "url3": "https://the-internet.herokuapp.com/status_codes/404"
+}

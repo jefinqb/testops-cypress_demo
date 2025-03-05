@@ -1,0 +1,4 @@
+School_id,Student_id,Student_number,State_id,Last_name,Middle_name,First_name,Grade,Gender,Dob,Race,Hispanic_Latino,Ell_status,Frl_status,Iep_status,Student_street,Student_city,Student_state,Student_zip,Student_email,Contact_relationship,Contact_type,Contact_name,Contact_phone,Contact_email,Username,Password
+10001,101011,111111,23456,T1,M,QAStudent1,1,F,28/05/1986,A,B,C,D,E,F,G,H,100005,student1@lzqa.com,S,p,Name1,321321312,testlz1@lzqa.com,student1_a,12345678
+10002,101012,111112,23457,T2,M,QAStudent2,2,M,29/09/2016,A,B,C,D,E,F,G,H,200004,student2@lzqa.com,S,p,Name2,21432423,testlz2@lzqa.com,student2_a,12345678
+10003,101013,111113,23458,T3,M,QAStudent3,3,M,15/08/2019,A,B,C,D,E,F,G,H,300004,student3@lzqa.com,S,p,Name3,4324324,testlz3@lzqa.com,student3_a,12345678

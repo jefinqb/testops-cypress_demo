@@ -1,0 +1,9 @@
+{
+   "reporterEnabled": "cypress-mochawesome-reporter",
+   "reporterOptions": {
+      "reportDir": "cypress/reports/html",
+      "embeddedScreenshots": true,
+      "inlineAssets": true,
+      "saveAllAttempts": false
+   }
+}
